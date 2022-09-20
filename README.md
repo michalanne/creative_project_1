@@ -10,4 +10,6 @@ page 4: about page
 
 Me: header, menu (search bar), footer, aboutme.html page
 
-footer: spacing at the bottom
+Menu: logo in the menu
+
+footer: spacing at the end of content div, both our names

@@ -1,5 +1,6 @@
 * {
     /*background-color: #66097a;*/
+    box-sixing: border-box;
 }
 
 .logo {
@@ -14,6 +15,7 @@ h1, h2 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  width: 90%;
 }
 
 h1 {
@@ -22,11 +24,12 @@ h1 {
 
 h2 {
     font-size: 45px;
+    text-align: center;
 }
 
 .content {
     /*margin-top: 0px; /*this should also have the width of the menu added */
-  width: 800px;
+  width: 60%; /*Responsive design*/
   height: auto;
   position: absolute;
   /*it can be fixed too*/
@@ -76,7 +79,7 @@ a:active {
 }
 
 .words-within-content {
-    width: 700px;
+    width: 85%; /*Responsive design*/
     height: auto;
     display: flex; 
     justify-content: center; 
