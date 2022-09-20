@@ -8,20 +8,26 @@
     flex-direction: row;
 }
 
-h1 {
-      font-size: 60px;
+h1, h2 {
   font-weight: 600;
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  background-image: linear-gradient(to left, #D565FF, #b393d3);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
 .content {
     /*margin-top: 0px; /*this should also have the width of the menu added */
-    /*background-color: #36004B;*/
   width: 800px;
-  height: 1000px;
+  height: auto;
   position: absolute;
   /*it can be fixed too*/
   left: 0;
@@ -32,9 +38,8 @@ h1 {
   /*this to solve "the content will not be cut when the window is smaller than the content": */
   max-width: 100%;
   max-height: 100%;
-  /*overflow: auto;*/
   color: #FFFFFF;
-  background-color: #36004B;
+  /*background-color: #36004B;*/
 
 }
 
@@ -72,9 +77,10 @@ a:active {
 
 .words-within-content {
     width: 700px;
-    height: 900px;
+    height: auto;
     display: flex; 
     justify-content: center; 
     align-items: center;
     flex-direction: column; 
+    margin: auto;
 }
