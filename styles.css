@@ -87,17 +87,17 @@ a:active {
 
 /* Navegation Menu Bar */
 .bg-dark {
-  background-color: #D565FF !important;
+  /*background-color: #66097a !important;*/
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: black;
 }
 
 .nav-item {
-  text-decoration: underline;
+    background-color: #b393d3;
 }
