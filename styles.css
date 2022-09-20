@@ -9,7 +9,7 @@
 
 .content {
     /*margin-top: 0px; /*this should also have the width of the menu added */
-    background-color: #36004B;
+    /*background-color: #36004B;*/
   width: 800px;
   height: 1000px;
   position: absolute;
@@ -23,9 +23,14 @@
   max-width: 100%;
   max-height: 100%;
   /*overflow: auto;*/
+  color: #FFFFFF;
     
 }
 
 .parent-content {
     position: relative;
+}
+
+ul {
+    list-style-type: disc;
 }
