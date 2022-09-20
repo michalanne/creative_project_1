@@ -1,10 +1,20 @@
 * {
-    background-color: #66097a;
+    /*background-color: #66097a;*/
 }
 
 .logo {
     margin-top: 40px; /*this can be changed to 40 + however wide the menu is */
     margin-left: 20px; 
+    flex-direction: row;
+}
+
+h1 {
+      font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .content {
@@ -24,7 +34,8 @@
   max-height: 100%;
   /*overflow: auto;*/
   color: #FFFFFF;
-    
+  background-color: #36004B;
+
 }
 
 .parent-content {
@@ -33,4 +44,37 @@
 
 ul {
     list-style-type: disc;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #B7B7B7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.words-within-content {
+    width: 700px;
+    height: 900px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
 }
