@@ -1,5 +1,31 @@
 * {
-    background color: #66097a;
+    background-color: #66097a;
 }
 
-styles
+.logo {
+    margin-top: 40px; /*this can be changed to 40 + however wide the menu is */
+    margin-left: 20px; 
+}
+
+.content {
+    /*margin-top: 0px; /*this should also have the width of the menu added */
+    background-color: #36004B;
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  /*it can be fixed too*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /*this to solve "the content will not be cut when the window is smaller than the content": */
+  max-width: 100%;
+  max-height: 100%;
+  /*overflow: auto;*/
+    
+}
+
+.parent-content {
+    position: relative;
+}
