@@ -1,6 +1,5 @@
 * {
     /*background-color: #66097a;*/
-    box-sixing: border-box;
 }
 
 .logo {
@@ -20,6 +19,7 @@ h1, h2 {
 
 h1 {
     font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -102,5 +102,7 @@ a:active {
 }
 
 .nav-item {
-    background-color: #b393d3;
+  text-align: center;
+  margin: 20px;
+    /*background-color: #b393d3;*/
 }
