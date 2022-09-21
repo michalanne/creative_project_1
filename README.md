@@ -8,9 +8,9 @@ page 2: book reviews for theme 1
 page 3: book reviews for theme 2
 page 4: about page
 
-Me: footer, aboutme.html page
+Me: aboutme.html page, bottom ten books
 
-- start aboutme page
+-   start aboutme page
 -   pictures
 -   names
 -   descrption (short paragprah) 
