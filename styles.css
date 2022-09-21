@@ -8,23 +8,28 @@ body {
     flex-direction: row;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 600;
-  background-image: linear-gradient(to left, #F7FF8F, #FEFFF1);
+  background-image: linear-gradient(to left, #ECAF00, #DAA100);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  width: 90%;
+  /*width: 90%;*/
+      text-align: center;
+
 }
 
 h1 {
     font-size: 60px;
-    text-align: center;
 }
 
 h2 {
     font-size: 45px;
-    text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
 }
 
 .content {
@@ -41,7 +46,7 @@ h2 {
   /*this to solve "the content will not be cut when the window is smaller than the content": */
   max-width: 100%;
   max-height: 100%;
-  color: #FFFFFF;
+  color: #000000;
   /*background-color: #36004B;*/
 
 }
@@ -55,25 +60,25 @@ ul {
 }
 
 a:link {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #B7B7B7;
+  color: #797979;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #797979;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -116,7 +121,7 @@ a:active {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-  /*grid-gap: .5rem; */
+  grid-gap: .5rem;
 }
 
 .gallery__img {
@@ -190,4 +195,26 @@ a:active {
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
+}
+
+.left-sidebar {
+    height: 100%;
+width: 150px;
+position: absolute;
+left: 0;
+top: 0;
+padding-top: 40px;
+background-color: #BABABA;
+}
+
+.left-sidebar div {
+padding: 8px;
+font-size: 24px;
+display: block;
+color: #000000;
+}
+
+.body-text {
+margin-left: 150px;
+font-size: 18px;
 }
