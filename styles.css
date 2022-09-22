@@ -223,23 +223,38 @@ a:active {
 }
 
 .left-sidebar {
-    height: 100%;
-width: 150px;
-position: absolute;
-left: 0;
-top: 0;
-padding-top: 40px;
-background-color: #BABABA;
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: #BABABA;
 }
 
 .left-sidebar div {
-padding: 8px;
-font-size: 24px;
-display: block;
-color: #000000;
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  color: #000000;
 }
 
 .body-text {
-margin-left: 150px;
-font-size: 18px;
+  margin-left: 150px;
+  font-size: 18px;
 }
+
+.float-container {
+  width: 60%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.float-child {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+} 
