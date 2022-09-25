@@ -246,7 +246,7 @@ a:active {
 
 .float-container {
   width: 60%;
-  height: 400px;
+  height: 700px;
   margin: 0 auto;
 }
 
@@ -258,3 +258,16 @@ a:active {
   background-color: white;
   text-align: center;
 } 
+
+.photo {
+  width: 100%;
+  border-width: 2px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.profil-photo {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+}
